@@ -489,6 +489,12 @@ int main() {
     q.push(priority_item<client>(client("Yana", "Mazepa", 15), 2));
     q.push(priority_item<client>(client("Max","Nice", 79), 5));
     q.push(priority_item<client>(client("Olof","Olof", 10), 4));
+    q.push(priority_item<client>(client("Oleg","Vinnik", 43), 4));
+    q.push(priority_item<client>(client("Oleg","Vinnik", 43), 4));
+    q.push(priority_item<client>(client("Oleg","Vinnik", 43), 4));
+    q.push(priority_item<client>(client("Oleg","Vinnik", 43), 4));
+    q.push(priority_item<client>(client("Oleg","Vinnik", 43), 4));
+    q.push(priority_item<client>(client("Oleg","Vinnik", 43), 4));
 
     q.print();
 
